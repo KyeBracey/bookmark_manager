@@ -1,4 +1,5 @@
 feature 'create links' do
+
   scenario 'form creates links' do
    visit '/links/new'
    fill_in 'title', :with => 'Makers Academy'
