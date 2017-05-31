@@ -5,15 +5,15 @@ class BookmarkManager < Sinatra::Base
 
   get '/links' do
     @links = Link.all
-    erb(:links)
+    erb :'links'
   end
 
   get '/links/new' do
-    erb(:new_link)
+    erb :'links/new'
   end
 
   post '/links' do
-    link = Link.create(:url => params[:url], :title => params[:title])
+    link = Link.create(url: params[:url], title: params[:title])
     redirect '/links'
   end
 
