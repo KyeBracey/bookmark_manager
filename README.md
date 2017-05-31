@@ -21,7 +21,7 @@ As a User
 So that I can quickly find similar bookmarks in the list
 I want to be able to filter links by tag
 
-Noun      | Verb    
+State     | Behaviour    
 ----------|----------
 User      |
 Link      | add_link
@@ -33,20 +33,20 @@ Tag       | add_tag
 
 ### Blog Post Regarding CRUD ###
 
-*CRUD* (Create, Read, Update, Delete)
+**CRUD** (Create, Read, Update, Delete)
 These are the four actions that can be taken on any database object
 
-Create - Inputting new records
-CREATE TABLE Students (ID int, Name varchar)
+- Create - Inputting new records  
+```CREATE TABLE Students (ID int, Name varchar)```
 
-Read - Showing or viewing records
-SELECT * FROM Students
+- Read - Showing or viewing records  
+```SELECT * FROM Students```
 
-Update - Changing records
-UPDATE Students SET Name = 'Sam' WHERE Cohort = 'May 2017'
+- Update - Changing records  
+```UPDATE Students SET Name = 'Sam' WHERE Cohort = 'May 2017'```
 
-Delete - Remove object from the database
-DELETE * FROM Students WHERE Banter = 'unsatisfactory'
+- Delete - Remove object from the database  
+```DELETE * FROM Students WHERE Banter = 'unsatisfactory'```
 
-*SQL* (Structured Query Language)
+**SQL** (Structured Query Language)  
 A database-specific language to be able to implement CRUD (but not much else)
